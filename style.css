@@ -13,7 +13,7 @@
     display: flex;
     justify-content: space-around;
     width: 40%;
-    background-color: #417b5a;
+    background-color: #495e57;
     padding: 0.5rem 1rem ;
     border-radius: 1rem;
 }
@@ -45,8 +45,36 @@ li a:hover{
 
 #promote .banner {
     grid-area: banner;
-    background-color: #cbd061;
+    background-image: url(banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: auto;
+    position: relative;
+}
+#promote .banner p {
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+}
+.banner button{
+    border: none;
+    background-color: #f4ce14;
+    padding: 0.5rem 0.45rem;
+    border-radius: 1rem;
+}
+.banner .section_booking {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    bottom: 1rem;
+    left: 1rem;
+}
+.section_booking button {
+    align-self: flex-start;
+    width: auto;
+    font-weight: 600;
 }
 #promote .dish1{
     grid-area: dish1;
