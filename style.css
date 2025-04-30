@@ -2,6 +2,16 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/* Header */
+header{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+header img{
+    width: 300px;
+}
+
 /* Navigation Bar */
 #nav_bar{
     display: flex;
@@ -27,7 +37,7 @@ ul li a{
     transition: all 0.2s ease-in-out;
 }
 li a:hover{
-    background-color: rgba(134, 160, 134, 0.504);
+    background-color: #5f766eb4;
 }
 
 /* Main Content */
